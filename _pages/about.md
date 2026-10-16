@@ -57,5 +57,5 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 
 <p style="font-size: 0.75em; color: #888; margin-top: 3em;">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+  &copy; {{ site.time | date: '%Y' }} Pratyusha Ghosh · Built with <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a>
 </p>
