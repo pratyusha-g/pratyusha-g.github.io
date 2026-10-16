@@ -1,5 +1,5 @@
 ---
-title: "Input Matters: How Telepresence Control Devices Affect Performance, Sense of Control, and User Experience"
+title: "Envisioning Telepresence Robots for Long Covid: A Critical Disability Lens"
 collection: publications
 category: conference_journal
 permalink: /publication/2025-09-18-Envisioning-Telepresence-LC
