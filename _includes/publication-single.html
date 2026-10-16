@@ -14,6 +14,12 @@
     <em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
   </div>
 
+  {% if post.award %}
+  <div class="publication-award">
+    ★ {{ post.award }}
+  </div>
+  {% endif %}
+
   <div class="publication-links">
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}">PDF ↗</a>
