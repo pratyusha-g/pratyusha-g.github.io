@@ -1,45 +1,31 @@
-<div class="publication-entry"
-     style="margin-bottom: 2rem;">
+<article class="publication-entry">
 
-  <!-- Paper title -->
-  <div style="font-size: 1.05rem;
-              font-weight: 600;
-              line-height: 1.5;
-              margin-bottom: 0.4rem;">
+  <div class="publication-title">
     {{ post.title }}
   </div>
 
-  <!-- Authors -->
   {% if post.authors %}
-  <div style="font-size: 0.95rem; margin-bottom: 0.3rem;">
-    {{ post.authors }}
-  </div>
+    <div class="publication-authors">
+      {{ post.authors }}
+    </div>
   {% endif %}
 
-  <!-- Venue and year -->
-  <div style="font-size: 0.9rem;
-              font-style: italic;
-              color: #666;
-              margin-bottom: 0.6rem;">
-    {{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+  <div class="publication-venue">
+    <em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
   </div>
 
-  <!-- Links -->
-  <div style="font-size: 0.85rem;">
+  <div class="publication-links">
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}"
-         style="margin-right: 1rem;">PDF</a>
+      <a href="{{ post.paperurl }}">PDF ↗</a>
     {% endif %}
 
     {% if post.bibtexurl %}
-      <a href="{{ post.bibtexurl }}"
-         style="margin-right: 1rem;">BibTeX</a>
+      <a href="{{ post.bibtexurl }}">BibTeX ↗</a>
     {% endif %}
 
     {% if post.doi %}
-      <a href="https://doi.org/{{ post.doi }}"
-         style="margin-right: 1rem;">DOI</a>
+      <a href="https://doi.org/{{ post.doi }}">DOI ↗</a>
     {% endif %}
   </div>
 
-</div>
+</article>
