@@ -1,0 +1,45 @@
+<div class="publication-entry"
+     style="margin-bottom: 2rem;">
+
+  <!-- Paper title -->
+  <div style="font-size: 1.05rem;
+              font-weight: 600;
+              line-height: 1.5;
+              margin-bottom: 0.4rem;">
+    {{ post.title }}
+  </div>
+
+  <!-- Authors -->
+  {% if post.authors %}
+  <div style="font-size: 0.95rem; margin-bottom: 0.3rem;">
+    {{ post.authors }}
+  </div>
+  {% endif %}
+
+  <!-- Venue and year -->
+  <div style="font-size: 0.9rem;
+              font-style: italic;
+              color: #666;
+              margin-bottom: 0.6rem;">
+    {{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+  </div>
+
+  <!-- Links -->
+  <div style="font-size: 0.85rem;">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}"
+         style="margin-right: 1rem;">PDF</a>
+    {% endif %}
+
+    {% if post.bibtexurl %}
+      <a href="{{ post.bibtexurl }}"
+         style="margin-right: 1rem;">BibTeX</a>
+    {% endif %}
+
+    {% if post.doi %}
+      <a href="https://doi.org/{{ post.doi }}"
+         style="margin-right: 1rem;">DOI</a>
+    {% endif %}
+  </div>
+
+</div>
