@@ -33,7 +33,7 @@ permalink: /education/
 
 <div style="margin-bottom: 2rem;">
   <h2 style="font-size: 1.3rem; border: none; margin-bottom: 0.4rem;">
-    B.Sc. in Life Sciences with Specialization in Biomedical Science
+    B.Sc. (Honors) in Life Sciences with Specialization in Biomedical Science
   </h2>
   <p style="font-size: 0.9rem; color: #666; margin: 0 0 0.6rem 0;">
     Second Major in Statistics · Double Minors in Public Health and Psychology
