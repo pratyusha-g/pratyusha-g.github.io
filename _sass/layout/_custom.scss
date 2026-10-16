@@ -14,28 +14,29 @@
 }
 
 .publication-title {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.45;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
 }
 
 .publication-authors {
-  font-size: 0.9rem;
-  margin-bottom: 0.2rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
 }
 
 .publication-venue {
   font-size: 0.85rem;
   color: #666;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.7rem;
 }
 
 .publication-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
-  font-size: 0.85rem;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
 
   a {
     text-decoration: none;
